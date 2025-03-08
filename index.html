@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Futbol Honduras _Equipo 11</title>
+  <link rel="stylesheet" href="less/main.less" />
+</head>
+
+<body>
+  {{>header}}
+
+  <main>
+    <h2>Tabla De Liga Hondureña</h2>
+
+    <section class="tabla">
+      {{#each tabla}}
+        {{> imgcards this}}
+      {{/each}}
+
+    </section>
+  </main>
+
+</body>
+<footer>
+<footer>
+    {{> footer}}
+  </footer>
+</footer>
+
+</html>

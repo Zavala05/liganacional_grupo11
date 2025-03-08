@@ -1,0 +1,20 @@
+{
+  "name": "liganacional_grupo11",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0",
+    "vite-plugin-handlebars": "^2.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "vite-plugin-purgecss": "^0.2.12"
+  }
+}
